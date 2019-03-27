@@ -1,2 +1,2 @@
 # Professional-Portfolio
-Employer ready portfolio using react
+Employer ready portfolio 
