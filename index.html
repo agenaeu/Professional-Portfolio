@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon.ico" />
+    <title>Dillon Rice Portfolio</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background">
+        &nbsp;
+      </div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#section-about-me" class="navigation__link"
+              ><span>01</span>About Me</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-projects" class="navigation__link"
+              ><span>02</span>Projects</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-contact" class="navigation__link"
+              ><span>03</span>Contact Me</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main u-margin-bottom-small"
+            >Dillon Rice</span
+          >
+          <span class="heading-primary--sub">Junior Web Developer</span>
+        </h1>
+      </div>
+    </header>
+
+    <section class="section-about-me section-about" id="section-about-me">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">About Me</h2>
+      </div>
+
+      <div class="row">
+        <div class="about-me">
+          <figure class="about-me__shape">
+            <img
+              class="about-me__image--1"
+              src="./assets/images/portfolio-pic"
+              alt="Person on a tour"
+            />
+            <figcaption class="about-me__caption">Dillon Rice</figcaption>
+          </figure>
+          <div class="about-me__text">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              From biologist to developer
+            </h3>
+            <p>
+              A bit about myself:
+            </p>
+            <p>
+              I started college with an interest in going to medical school,
+              specifically with a focus on bacteriology / virology. After a few
+              semesters I breifly changed to an engineering major with a focus
+              on astrobiogeo sciences but quickly realized I was in way over my
+              head when the first semester they wanted me to program something
+              pretty complex. Fast forward a few years I have my degree and am
+              quickly realizing I won't be able to pursue what I origianlly
+              wanted and decided to kind of dive back into programming as a
+              hobby. At this point I fell in love with it and enrolled in a
+              bootcamp where I learned HTML, CSS, JavaScript, node.JS, SQL,
+              mongoDB, and React. I intend to try and extend my knowledge base
+              into other languages such as C# or Java as well.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="about-me">
+          <figure class="about-me__shape">
+            <img
+              class="about-me__image--2"
+              src="./assets/images/portfolio-pic-2.jpg"
+              alt="Person on a tour"
+            />
+            <figcaption class="about-me__caption">Dillon Rice</figcaption>
+          </figure>
+          <div class="about-me__text">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              What I do now
+            </h3>
+            <p>
+              Since finishing my bootcamp I have tried to stay active in my
+              pursuit of knowledge in programming. I'm currently taking 5
+              different online tutorial programs which range from 15-50 hours
+              each. I'd like to extend my knowledge in React, and CSS but I'd
+              also really like to learn some object oriented programming. I have
+              fallen in love with programming and found it is my passion. I'm
+              eager to find a job that allows me to grow and learn with an
+              experienced team.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-projects " id="section-projects">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary--projects">Projects</h2>
+      </div>
+      <div class="row">
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--1">
+                &nbsp;
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--1"
+                  >Shop Workflow App</span
+                >
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Increase work efficiency</li>
+                  <li>Decrease communication errors</li>
+                  <li>Enable admin privledges</li>
+                  <li>Add or get rid of employees from the database</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-1">
+              <div class="card__cta">
+                <a href="#popup--1" class="btn btn--white">Click me!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--1">
+                &nbsp;
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--1"
+                  >Save the trees</span
+                >
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Save thousands per year on paper menu costs</li>
+                  <li>Fun interactive way for guests to order</li>
+                  <li>Allow sushi chefs to instantly receive orders</li>
+                  <li>Enable managers to oversee any tables order</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-1">
+              <div class="card__cta">
+                <a href="#popup--2" class="btn btn--white">Click me!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--3">
+                &nbsp;
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--1"
+                  >Mushy Pushy</span
+                >
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Send a heart-felt text to a loved one</li>
+                  <li>Set a time and relax</li>
+                  <li>Way better than facebook reminders for birthdays</li>
+                  <li>Never forget an important message again</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-1">
+              <div class="card__cta">
+                <a href="#popup--3" class="btn btn--white">Click me!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="u-center-text u-margin-top-huge">
+        <a href="#" class="btn btn--orange">See all projects</a>
+      </div>
+    </section>
+
+    <section class="section-contact" id="section-contact">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">Contact me</h2>
+      </div>
+      <div class="row">
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <i class="feature-box__icon fas fa-at"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">E-mail</h3>
+            <p class="feature-box__text">
+              sdrice18@gmail.com
+            </p>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <i class="feature-box__icon fas fa-mobile-alt"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">Phone</h3>
+            <p class="feature-box__text">
+              1 (520) 576-2500
+            </p>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="feature-box feature-box__button">
+            <i class="feature-box__icon fab fa-linkedin"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">Linked In</h3>
+            <a
+              href="https://www.linkedin.com/in/stephen-dillon-rice/"
+              class="btn btn-text"
+              >Visit</a
+            >
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="feature-box feature-box__button">
+            <i class="feature-box__icon fab fa-github"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">Github</h3>
+            <a href="https://github.com/agenaeu" class="btn btn-text">Visit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="https://github.com/agenaeu" class="footer__link"
+                  >Github</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="#section-contact" class="footer__link">Contact me</a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="https://www.linkedin.com/in/stephen-dillon-rice/"
+                  class="footer__link"
+                  >LinkedIn</a
+                >
+              </li>
+              <li class="footer__item">
+                <a
+                  href="https://twitter.com/StephenDillonR1"
+                  class="footer__link"
+                  >Twitter</a
+                >
+              </li>
+              <li class="footer__item">
+                <a
+                  href="https://www.facebook.com/dillon.rice.37"
+                  class="footer__link"
+                  >Facebook</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Built by Dillon Rice to show different works as an entry level
+            developer. Copyright &copy; by Dillon Rice.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup" id="popup--1">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="./assets/images/Shop-workload-login.png" alt="Login page" class="popup__image" />
+          <img src="./assets/images/Shop-workload-parts.png" alt="Parts page" class="popup__image" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-projects" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            Shop workload app
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">Extra details</h3>
+          <p class="popup__text">
+            `This project is a workflow control app that
+            attempts to streamline all workflow in a shop` <br>
+            This app will create
+            a high level of effenciency within a shop environment by: <br>
+            1.
+            Assigning jobs based on the work to be done. <br>
+            2. Workstations are
+            sequentially assigned in order of work to be done.<br> 
+            3. Workflow is
+            assigned for maximum effeciency and cannot be changed. <br>
+            4. Job
+            documentation is digitally attached to each job to further enhance
+            effenciency.<br> 
+            The app has authentication for both employee (workflow)
+            and admin (job planning/access): <br>
+            1. There is a unified login page
+            for both Administrator and Employees. <br>
+            2. Administrators can create,
+            assign and update jobs. <br>
+            3. Employees can see work assigned
+            to their workstation and what must be accomplished. <br>
+            4. Admin login
+            will allow you to update the entire system. <br>
+            Primary Technologies Used: <br>
+            - `ReactJS` <br>
+            - `Node` <br>
+            - `Express` <br> <br>
+            Additional Technologies Used: <br>
+            - `Cloud Firestore` -is a NoSQL document database <br> <br>
+            - `Firebase Authentication` -makes building secure
+            authentication systems easy.  <br> <br>
+            - `Firebase Cloud Functions` -allow you to develop a backend without
+            servers.  <br> <br>
+            - `Firebase Cloud Storage` -allows you to store and
+            serve content with relative ease. <br> <br>
+            - `Firebase Hosting` is fast and secure web
+            hosting that can deliver content very quickly.
+            </p>
+          <a
+            href="https://github.com/GeoQer/GroupProject3"
+            class="btn btn--orange"
+            >See the code!</a
+          >
+          <a
+            href="https://project-runner-f1bdc.firebaseapp.com"
+            class="btn btn--orange"
+            >Go to the app!</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup--2">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/nat-8.jpg" alt="Tour Photo" class="popup__image" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-projects" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            Save the trees
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">Extra details</h3>
+          <p class="popup__text">
+                In an effort to reduce waste and prevent order confusion, Team Arkie Alderton decided to create a digital sushi menu card that can be filled out through a web browser on a patron's smart phone, tablet or laptop. <br><br>
+
+                Simply sit down and use a web browser to visit the URL provided at the table. <br><br>
+                
+                Add a quantity to a desired item and review the order in the summary bar. <br><br>
+                
+                When the order is submitted, the selected items, quantities and submition time are stored to a server database and then displayed on a dedicated Chef's page. <br> <br>
+                
+                As the Chef completes an order, the items can checked off the list as complete and completion time stored to provide better time estimations and for chefs to review their performance and identify areas for improvement. <br><br>
+                
+                We hope you enjoyed you experience and look forward to seeing you again next time. <br> <br>
+          </p>
+          <a href="https://github.com/agenaeu/Group_project_2" class="btn btn--orange">See the code!</a>
+          <a href="#" class="btn btn--orange">Go to the app!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup--3">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="./assets/images/Mushy-pushy-home.png" alt="Mushy Pushy homepage" class="popup__image" />
+          <img src="./assets/images/Mushy-pushy-sent.png" alt="Mushy Pushy sent texts" class="popup__image" />
+
+        </div>
+        <div class="popup__right">
+          <a href="#section-projects" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">Mushy Pushy</h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">Extra details</h3>
+          <p class="popup__text">
+                This app allows users to send a preconstructed text via SMS at the time and date of their choosing automatically so that a loved ones birthday or anniversary is never forgotten. <br> <br>
+                No more having facebook remind you that it is your best friends birthday just so you can send a a non heart-felt message through facebook that says happy birthday.  <br> <br> <br>
+                Technologies used: <br> <br>
+                - Twilio API <br> <br>
+                - Bootstrap <br> <br>
+                - Node.JS <br> <br>
+                - Moment.JS <br> <br>
+
+          </p>
+          <a href="https://github.com/teckniec/ProjectOne" class="btn btn--orange">See the code!</a>
+          <a href="https://teckniec.github.io/ProjectOne/" class="btn btn--orange">Go to the app!</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
