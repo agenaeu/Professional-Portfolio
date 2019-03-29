@@ -438,8 +438,8 @@ body {
 .card__picture--1 {
   background-image: linear-gradient(
       to right bottom,
-      rgba(255, 185, 0, 0.8),
-      rgba(255, 119, 48, 0.8)
+      rgba(255, 185, 0, 0.25),
+      rgba(255, 119, 48, 0.25)
     ),
     url(./assets/images/code-background.jpg);
 }
@@ -447,17 +447,17 @@ body {
 .card__picture--2 {
   background-image: linear-gradient(
       to right bottom,
-      rgba(255, 185, 0, 0.55),
-      rgba(255, 119, 48, 0.55)
+      rgba(255, 185, 0, 0.25),
+      rgba(255, 119, 48, 0.25)
     ),
-    url(../img/nat-5.jpg);
+    url(./assets/images/Save-trees.jpg);
 }
 
 .card__picture--3 {
   background-image: linear-gradient(
       to right bottom,
-      rgba(255, 185, 0, 0.55),
-      rgba(255, 119, 48, 0.55)
+      rgba(255, 185, 0, 0.25),
+      rgba(255, 119, 48, 0.25)
     ),
     url(./assets/images/Mushy-pushy-home.png);
 }
